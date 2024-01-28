@@ -21,9 +21,9 @@ public class CalculatorStepDefs {
         result = calculator.add(a, b);
     }
     @Then("We get a result of {int}")
-    public void we_get_a_result_of(Integer expected) {
+    public void we_get_a_result_of(int sum) {
         // Write code here that turns the phrase above into concrete actions
-        assertEquals(expected, result);
+        assertEquals(sum, (int)result);
     }
 
 }
