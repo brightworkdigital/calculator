@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ff639d-3c25-4de1-82bf-c0d4bd3f51de" name="Changes" comment="Second scenario runs with original step definitions.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CalculatorStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CalculatorStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/calculator.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/calculator.feature" afterDir="false" />
-    </list>
+    <list default="true" id="a9ff639d-3c25-4de1-82bf-c0d4bd3f51de" name="Changes" comment="Second scenario runs with original step definitions." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,37 +34,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.All Features in: calculator.executor": "Run",
-    "Cucumber Java.All Features in: resources.executor": "Run",
-    "Cucumber Java.All Features in: test.executor": "Run",
-    "Cucumber Java.Feature: calculator (1).executor": "Run",
-    "Cucumber Java.Feature: calculator.executor": "Run",
-    "Cucumber Java.Scenario: Add a positive and negative number of the same value.executor": "Run",
-    "Cucumber Java.Scenario: Add a variety of numbers.executor": "Run",
-    "Cucumber Java.Scenario: Add two numbers.executor": "Run",
-    "JUnit.CalculatorTest.executor": "Run",
-    "Maven.calculator [clean].executor": "Run",
-    "Maven.calculator [compile].executor": "Run",
-    "Maven.calculator [test].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/dave/src/fairfield/walkthrough/calculator/pom.xml",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.All Features in: calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.All Features in: resources.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.All Features in: test.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: calculator (1).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Add a positive and negative number of the same value.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Add a variety of numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Add two numbers.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.calculator [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.calculator [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.calculator [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dave/src/fairfield/walkthrough/calculator/pom.xml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example" />
@@ -83,7 +79,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: calculator">
+  <component name="RunManager" selected="JUnit.CalculatorTest">
     <configuration name="Feature: calculator" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/calculator.feature" />
@@ -178,11 +174,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Scenario: Add a positive and negative number of the same value" />
+      <item itemvalue="Cucumber Java.Scenario: Add a variety of numbers" />
+      <item itemvalue="Cucumber Java.Feature: calculator" />
+      <item itemvalue="Cucumber Java.Scenario: Add two numbers" />
+      <item itemvalue="JUnit.CalculatorTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="Cucumber Java.Feature: calculator" />
         <item itemvalue="Cucumber Java.Scenario: Add a variety of numbers" />
-        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="Cucumber Java.Scenario: Add a positive and negative number of the same value" />
         <item itemvalue="Cucumber Java.Scenario: Add two numbers" />
       </list>
@@ -228,5 +231,9 @@
     <MESSAGE value="Empty project with dependencies only" />
     <MESSAGE value="Second scenario runs with original step definitions." />
     <option name="LAST_COMMIT_MESSAGE" value="Second scenario runs with original step definitions." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
