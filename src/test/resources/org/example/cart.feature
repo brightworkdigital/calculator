@@ -1,6 +1,7 @@
 Feature: Buy some stuff
 
   Scenario: I am at the Apple Store
+
     Given I have the following items in my cart
       | Item        | Part No | Color | Quantity | Price |
       | iPhone 6S   | 123654  | White | 1        | 899   |

@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ff639d-3c25-4de1-82bf-c0d4bd3f51de" name="Changes" comment="Corrected location of calculator.feature">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CartStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/org/example/cart.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CalculatorStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CalculatorStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/org/example/calculator.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/org/example/calculator.feature" afterDir="false" />
-    </list>
+    <list default="true" id="a9ff639d-3c25-4de1-82bf-c0d4bd3f51de" name="Changes" comment="Added cart feature as example of handling a DataTable" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="3-two-scenarios" />
+        <entry key="$PROJECT_DIR$" value="3b-two-scenarios-outline" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,7 +90,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: calculator">
+  <component name="RunManager" selected="Cucumber Java.Feature: cart">
     <configuration name="Feature: calculator" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/org/example/calculator.feature" />
@@ -118,7 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/org/example/cart.feature" />
+      <option name="GLUE" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="calculator" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: cart" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CucumberRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator" />
       <extension name="coverage">
         <pattern>
@@ -127,7 +138,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CalculatorTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CucumberRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,8 +146,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="Cucumber Java.Feature: cart" />
         <item itemvalue="Cucumber Java.Feature: calculator" />
+        <item itemvalue="JUnit.CucumberRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +166,7 @@
       <workItem from="1706471377635" duration="1288000" />
       <workItem from="1706472673180" duration="3160000" />
       <workItem from="1706563207409" duration="598000" />
-      <workItem from="1706567777972" duration="3044000" />
+      <workItem from="1706567777972" duration="3348000" />
     </task>
     <task id="LOCAL-00001" summary="Empty project with dependencies only">
       <option name="closed" value="true" />
@@ -180,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706539867215</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added cart feature as example of handling a DataTable">
+      <option name="closed" value="true" />
+      <created>1706572929473</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706572929473</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +210,8 @@
     <MESSAGE value="Empty project with dependencies only" />
     <MESSAGE value="Second scenario runs with original step definitions." />
     <MESSAGE value="Corrected location of calculator.feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrected location of calculator.feature" />
+    <MESSAGE value="Added cart feature as example of handling a DataTable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added cart feature as example of handling a DataTable" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
