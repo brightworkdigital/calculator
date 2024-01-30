@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ff639d-3c25-4de1-82bf-c0d4bd3f51de" name="Changes" comment="Added cart feature as example of handling a DataTable" />
+    <list default="true" id="a9ff639d-3c25-4de1-82bf-c0d4bd3f51de" name="Changes" comment="Updated with more useful name for runner class and removed unused cucumber.properties." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +51,7 @@
     "JUnit.All in calculator.executor": "Run",
     "JUnit.All tests in calculator.executor": "Run",
     "JUnit.CalculatorTest.executor": "Run",
+    "JUnit.CucumberRunner.executor": "Run",
     "Maven.calculator [clean].executor": "Run",
     "Maven.calculator [compile].executor": "Run",
     "Maven.calculator [maven,clean:clean].executor": "Run",
@@ -90,46 +91,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: cart">
-    <configuration name="Feature: calculator" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/org/example/calculator.feature" />
-      <option name="GLUE" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="calculator" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: calculator" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/org/example/cart.feature" />
-      <option name="GLUE" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="calculator" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: cart" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CucumberRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="CucumberRunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator" />
       <extension name="coverage">
         <pattern>
@@ -138,7 +101,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.CucumberRunner" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CucumberRunnerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,9 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: cart" />
-        <item itemvalue="Cucumber Java.Feature: calculator" />
-        <item itemvalue="JUnit.CucumberRunner" />
+        <item itemvalue="JUnit.CucumberRunnerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +127,7 @@
       <workItem from="1706471377635" duration="1288000" />
       <workItem from="1706472673180" duration="3160000" />
       <workItem from="1706563207409" duration="598000" />
-      <workItem from="1706567777972" duration="3348000" />
+      <workItem from="1706567777972" duration="3641000" />
     </task>
     <task id="LOCAL-00001" summary="Empty project with dependencies only">
       <option name="closed" value="true" />
@@ -200,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706572929473</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated with more useful name for runner class and removed unused cucumber.properties.">
+      <option name="closed" value="true" />
+      <created>1706573224522</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706573224522</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +180,8 @@
     <MESSAGE value="Second scenario runs with original step definitions." />
     <MESSAGE value="Corrected location of calculator.feature" />
     <MESSAGE value="Added cart feature as example of handling a DataTable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added cart feature as example of handling a DataTable" />
+    <MESSAGE value="Updated with more useful name for runner class and removed unused cucumber.properties." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated with more useful name for runner class and removed unused cucumber.properties." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
