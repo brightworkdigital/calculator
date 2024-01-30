@@ -17,5 +17,14 @@ Feature: Calculator
 
     Examples:
       | a | b  | sum |
+      | 1 | 2  | 3   |
       | 1 | -1 | 0   |
       | 2 | 3  | 5   |
+
+  Scenario: Sum a list of of numbers
+    Given We have a calculator
+    When We have a list of numbers:
+      | 1 |
+      | 4 |
+      | 5 |
+    Then We get a sum of 10
