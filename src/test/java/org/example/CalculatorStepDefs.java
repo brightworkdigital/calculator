@@ -3,11 +3,10 @@ package org.example;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.junit.jupiter.api.Assertions;
 
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class CalculatorStepDefs {
@@ -24,9 +23,9 @@ public class CalculatorStepDefs {
         result = calculator.add(a, b);
     }
     @Then("We get a result of {int}")
-    public void we_get_a_result_of(int sum) {
+    public void we_get_a_result_of(Integer sum) {
         // Write code here that turns the phrase above into concrete actions
-        assertEquals(sum, (int)result);
+        assertEquals(sum, this.result);
     }
 
     @When("We have a list of numbers:")
@@ -36,6 +35,6 @@ public class CalculatorStepDefs {
     @Then("We get a sum of {int}")
     public void we_get_a_sum_of(Integer expected) {
         // Write code here that turns the phrase above into concrete actions
-        Assertions.assertEquals(expected, result);
+        assertEquals(expected, result);
     }
 }
